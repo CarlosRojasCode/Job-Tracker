@@ -51,6 +51,16 @@ El proyecto sigue una arquitectura en capas estándar de Spring Boot:
 
 Valores recomendados para `estado` (aún no forzados por validación en esta versión): `ENVIADO`, `ENTREVISTA`, `DESCARTADO`, `OFERTA`.
 
+## Capturas de la API en funcionamiento
+
+**Creación de una candidatura (POST):**
+
+![Crear candidatura](docs/crear-candidatura.png)
+
+**Listado de candidaturas (GET):**
+
+![Listar candidaturas](docs/listar-todas.png)
+
 ## Cómo ejecutarlo localmente
 
 1. Clona el repositorio
