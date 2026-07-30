@@ -1,4 +1,8 @@
 # Job Tracker API
+![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen?logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-build-red?logo=apachemaven&logoColor=white)
+![H2](https://img.shields.io/badge/Database-H2-blue?logo=h2&logoColor=white)
 
 API REST desarrollada con Spring Boot para gestionar el proceso de búsqueda de empleo: registrar candidaturas, hacer seguimiento de su estado (enviada, entrevista, descartada, oferta) y centralizar la información que normalmente se lleva en una hoja de cálculo.
 
@@ -46,6 +50,16 @@ El proyecto sigue una arquitectura en capas estándar de Spring Boot:
 ```
 
 Valores recomendados para `estado` (aún no forzados por validación en esta versión): `ENVIADO`, `ENTREVISTA`, `DESCARTADO`, `OFERTA`.
+
+## Capturas de la API en funcionamiento
+
+**Creación de una candidatura (POST):**
+
+![Crear candidatura](docs/crear-candidatura.png)
+
+**Listado de candidaturas (GET):**
+
+![Listar candidaturas](docs/listar-todas.png)
 
 ## Cómo ejecutarlo localmente
 
